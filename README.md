@@ -7,5 +7,5 @@ Therefore, I extracted a minimal test code from the Rosetta source code. You can
 ## Usage
 ```
 cd utility
-g++ --std=c++11 -c json_utilities.cc -I .. -I .
+g++ --std=c++11 -c json_utilities.cc -I .. -I . -DJSON_SKIP_UNSUPPORTED_COMPILER_CHECK
 ```
